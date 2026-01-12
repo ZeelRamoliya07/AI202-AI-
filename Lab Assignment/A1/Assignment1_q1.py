@@ -38,7 +38,7 @@ def bfs_all_paths_costs(graph, start, goal):
     return results
 
 
-#function to find the smallest path using BFS
+#function to find the smallest path using DFS
 def dfs_all_paths_costs(graph, start, goal):
     stack = [(start, [start], 0)]
     results = []
