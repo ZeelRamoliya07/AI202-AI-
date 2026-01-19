@@ -1,5 +1,3 @@
-# 8-Puzzle BFS without using built-in Queue or Set
-
 # Start and Goal states (0 represents blank)
 start_state = (7, 2, 4,
                5, 0, 6,
@@ -9,7 +7,7 @@ goal_state = (0, 1, 2,
               3, 4, 5,
               6, 7, 8)
 
-# ---------- Custom Queue ----------
+# ---------- Queue ----------
 class Queue:
     def __init__(self):
         self.data = []
@@ -26,7 +24,7 @@ class Queue:
     def is_empty(self):
         return self.front >= len(self.data)
 
-# ---------- Custom Set ----------
+# ---------- Set ----------
 class VisitedSet:
     def __init__(self):
         self.store = {}

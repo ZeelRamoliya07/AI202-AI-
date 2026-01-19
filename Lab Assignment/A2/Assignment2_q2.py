@@ -1,5 +1,3 @@
-# 8-Puzzle DFS (no built-in stack or set)
-
 start_state = (7, 2, 4,
                5, 0, 6,
                8, 3, 1)
@@ -8,7 +6,7 @@ goal_state = (0, 1, 2,
               3, 4, 5,
               6, 7, 8)
 
-# ---------- Custom Stack ----------
+# ---------- Stack ----------
 class Stack:
     def __init__(self):
         self.data = []
@@ -22,7 +20,7 @@ class Stack:
     def is_empty(self):
         return len(self.data) == 0
 
-# ---------- Custom Visited ----------
+# ---------- Visited Set ----------
 class VisitedSet:
     def __init__(self):
         self.store = {}
