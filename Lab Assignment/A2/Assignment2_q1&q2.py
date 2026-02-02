@@ -83,5 +83,4 @@ print("DFS Solution Depth:", dfs_depth)
 # BFS States Explored: 169741
 # BFS Solution Depth: 26
 # DFS States Explored: 31304
-# DFS States Explored: 31304
 # DFS Solution Depth: 50
