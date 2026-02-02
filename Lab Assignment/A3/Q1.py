@@ -24,7 +24,7 @@
 # print("Percept\t\tAction\t\tLocation")
 # print("------------------------------------------")
 
-# for _ in range(7):
+# for _ in range(15):
 #     status = rooms[location]
 #     actions = rule_table[(location, status)]
 #     action = random.choice(actions)
