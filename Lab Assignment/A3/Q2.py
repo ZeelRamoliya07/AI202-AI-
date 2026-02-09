@@ -25,6 +25,8 @@
 # for p in test_cases:
 #     action = railway_agent(p)
 #     print(f"{p}\t{action}")
+
+
 # type-2
 def railway_agent(emergency, train_in, train_out, obstacle):
     # Priority 1: Manual Emergency
@@ -49,7 +51,7 @@ steps = int(input("Enter number of percepts: "))
 print("\nPercepts\t\t\t\tAction (Gate, Hooter, Signal)")
 print("------------------------------------------------------------------")
 
-for _ in range(steps):
+for i in range(steps):
     emergency = input("Manual Emergency (Active/Neutral): ")
     train_in = input("Train Inbound (Detected/NotDetected): ")
     train_out = input("Train Outbound (Detected/NotDetected): ")
