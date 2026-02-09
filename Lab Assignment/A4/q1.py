@@ -19,7 +19,7 @@ cities = {
 n = 14
 
 # adjacency matrix
-adj = [[0 for _ in range(n)] for _ in range(n)]
+adj = [[0 for i in range(n)] for j in range(n)]
 
 edges = [
     (0,1,283),(0,2,345),(0,3,182),
