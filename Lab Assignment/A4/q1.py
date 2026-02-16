@@ -132,8 +132,8 @@ def get_path(node):
 
 
 # Driver code
-start = 7   # Syracuse
-goal = 0    # Chicago
+start = 3   # Syracuse
+goal = 2   # Chicago
 
 problem = Problem(start, goal)
 solution, explored_count = BEST_FIRST_SEARCH(problem, f)
